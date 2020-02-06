@@ -1,0 +1,11 @@
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
