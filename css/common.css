@@ -1,16 +1,15 @@
-/* * {
-  outline: 1px solid red;
-} */
-
 html {
   box-sizing: border-box;
-  line-height: 1;
 }
 
 *,
 *::after,
 *::before {
   box-sizing: inherit;
+}
+
+.wrapper {
+  min-width: 1200px;
 }
 
 .container {
