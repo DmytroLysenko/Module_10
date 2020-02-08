@@ -1,11 +1,42 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+html {
+  box-sizing: border-box;
+  line-height: 1;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .link {
   display: block;
   text-decoration: none;
-  color: inherit;
 }
 
 .list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.btn {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
